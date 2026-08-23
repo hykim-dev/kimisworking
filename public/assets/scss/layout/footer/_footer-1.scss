@@ -151,6 +151,10 @@
         @media #{$sm}{
             font-size: 29px;
         }
+        @media #{$xs}{
+            font-size: 20px;
+            font-weight: 400;
+        }
         &:hover{
             color: rgba(0, 0, 0, 0.6);
         }
